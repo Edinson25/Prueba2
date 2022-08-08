@@ -16,8 +16,19 @@
 
 .form-control::placeholder{
     color: #111 ;
+    font-weight: 400;
 }
 
+.firstInput::placeholder{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-control:focus{
+    background: transparent;
+    box-shadow: none;
+
+}
 
 
 .alinear{
@@ -111,16 +122,16 @@ section{
     }
 
     .form-control{
-        background: transparent
+        background: transparent;
+        text-align: center;
     }
+
+    
 
     .form-control::placeholder{
        text-align: center;
     }
 
-    .info{
-        background: transparent;
-    }
    
 
    
