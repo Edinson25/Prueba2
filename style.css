@@ -126,6 +126,10 @@ section{
         text-align: center;
     }
 
+    .firstInput::placeholder{
+        font-weight: 400;
+    }
+
     
 
     .form-control::placeholder{
