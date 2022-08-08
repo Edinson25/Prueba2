@@ -11,7 +11,14 @@
 
 .form-control{
     border: none;
+    
 }
+
+.form-control::placeholder{
+    color: #111 ;
+}
+
+
 
 .alinear{
     margin-left: 26%;
@@ -54,7 +61,7 @@ section{
 
 .qr{
     object-fit: contain;
-    
+    width: 40%;
 }
 
 .cabecera{
@@ -72,9 +79,10 @@ section{
     }
 
     .qr{
-        width: 80%;
+        width: 55%;
     }
-   
+
+    
 }
 
 @media(max-width:991px){
@@ -91,8 +99,29 @@ section{
     }
     
     .logo{
-        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+        
     }
+
+    .movil{
+        background-image: url("img/image-1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .form-control{
+        background: transparent
+    }
+
+    .form-control::placeholder{
+       text-align: center;
+    }
+
+    .info{
+        background: transparent;
+    }
+   
 
    
 }
